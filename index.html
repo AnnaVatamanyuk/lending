@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 8</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/et-line.css" rel="stylesheet">
+    <link href="./css/slick.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header_container clearfix">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.png" alt="image description"></a>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <button class="nav_opener"><span></span></button>
+            </div>
+        </header>
+        <main class="main">
+            <section class="banner_section">
+                <div class="bg_section bg_default">
+                    <div class="container">
+                        <div class="banner_title text_center">
+                            <h1>Thomas Rhythm</h1>
+                        </div>
+                        <div class="banner_text text_center">
+                            <span>Extraordinary art director & creative minimalism lover</span>
+                            <a class="btn_banner" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about_section default_section">
+                <div class="container">
+                    <h2>About studio</h2>
+                    <div class="row">
+                        <div class="col col-3 col_md_2">
+                            <blockquote class="blockquote">
+                                <p>Design is not making beauty,
+                                    beauty emerges from selection, affinities,
+                                    integration, love.</p>
+                                <span class="quote_autor">Louis Kahn</span>
+                            </blockquote>
+                        </div>
+                        <div class="col col-3 col_md_2">
+                            <div class="text-holder">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus
+                                    pellentesque mattis. Maecenas volutpat, diam enim sagittis quam, id porta quam.
+                                    Sed id dolor consectetur fermentum nibh volutpat, accumsan purus. .</p>
+                            </div>
+                        </div>
+                        <div class="col col-3 col_md_2">
+                            <div class="text-holder">
+                                <p>Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque
+                                    porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis
+                                    libero.
+                                    Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-3 col_md_2">
+                            <div class="user_info">
+                                <div class="img_holder">
+                                    <img src="img/user_1.jpg" alt="image description">
+                                </div>
+                                <div class="user_text text_center">
+                                    <h3 class="user_name">Thomas Rhythn</h3>
+                                    <h4 class="user_position">Art Director</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3 col_md_2">
+                            <div class="user_info">
+                                <div class="img_holder">
+                                    <img src="img/user_2.jpg" alt="image description">
+                                </div>
+                                <div class="user_text text_center">
+                                    <h3 class="user_name">Marta Laning</h3>
+                                    <h4 class="user_position">Web engineer</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3 col_md_2">
+                            <div class="user_info">
+                                <div class="img_holder">
+                                    <img src="img/user_3.jpg" alt="image description">
+                                </div>
+                                <div class="user_text text_center">
+                                    <h3 class="user_name">Steve Anders</h3>
+                                    <h4 class="user_position">Developer</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="service_section default_section">
+                <div class="container">
+                    <h2 class="text_center">Services</h2>
+                    <div id="services_tabs">
+                        <div class="services_list_holder">
+                            <ul class="services_list row">
+                                <li>
+                                    <a href="#branding">
+                                        <div class="icon_holder">
+                                            <span class="icon-strategy"></span>
+                                        </div>
+                                        <span>Branding</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#web_design">
+                                        <div class="icon_holder">
+                                            <span class="icon-desktop"></span>
+                                        </div>
+                                        <span>Web Design</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#graphic_design">
+                                        <div class="icon_holder">
+                                            <span class="icon-tools"></span>
+                                        </div>
+                                        <span>Graphic Design</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#development">
+                                        <div class="icon_holder">
+                                            <span class="icon-gears"></span>
+                                        </div>
+                                        <span>Development</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#photography">
+                                        <div class="icon_holder">
+                                            <span class="icon-camera"></span>
+                                        </div>
+                                        <span>Photography</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="branding" class="tab_holder">
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <blockquote class="blockquote">
+                                        <p>A brand for a company is like a reputation for a person.You earn reputation by
+                                            trying
+                                            to do hard things well..</p>
+                                        <span class="quote_autor">Jeff Bezos</span>
+                                    </blockquote>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="text-holder">
+                                        <p>Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor
+                                            consectetur
+                                            fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet,
+                                            consectetur adipiscing elit. In maximus ligula metus pellentesque mattis. </p>
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="text-holder">
+                                        <p>Donec vel ultricies purus. Nam dictum sem, ipsum aliquam . Etiam sit amet
+                                            fringilla
+                                            lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.
+                                            Integer
+                                            lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="web_design" class="tab_holder">
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <blockquote class="blockquote">
+                                        <p>Design is not making beauty, beauty emerges from selection, affinities,
+                                            integration,
+                                            love.</p>
+                                        <span class="quote_autor">Louis Kahn</span>
+                                    </blockquote>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="text-holder">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper
+                                            metus pellentesque mattis. Maecenas volutpat, diam enim sagittis quam, id porta
+                                            quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus. .</p>
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="text-holder">
+                                        <p>Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper
+                                            pulvinar
+                                            neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci
+                                            amet,
+                                            iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="graphic_design" class="tab_holder">
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <blockquote class="blockquote">
+                                        <p>A brand for a company is like a reputation for a person. You earn reputation by
+                                            trying to do hard things well..</p>
+                                        <span class="quote_autor">Jeff Bezos</span>
+                                    </blockquote>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="text-holder">
+                                        <p>Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor
+                                            consectetur
+                                            fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet,
+                                            consectetur adipiscing elit. In maximus ligula metus pellentesque mattis. </p>
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="text-holder">
+                                        <p>Donec vel ultricies purus. Nam dictum sem, ipsum aliquam . Etiam sit amet
+                                            fringilla
+                                            lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.
+                                            Integer
+                                            lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="development" class="tab_holder">
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <blockquote class="blockquote">
+                                        <p>A brand for a company is like a reputation for a person. You earn reputation by
+                                            trying to do hard things well..</p>
+                                        <span class="quote_autor">Jeff Bezos</span>
+                                    </blockquote>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="text-holder">
+                                        <p>Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor
+                                            consectetur
+                                            fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet,
+                                            consectetur adipiscing elit. In maximus ligula metus pellentesque mattis. </p>
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="text-holder">
+                                        <p>Donec vel ultricies purus. Nam dictum sem, ipsum aliquam . Etiam sit amet
+                                            fringilla
+                                            lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.
+                                            Integer
+                                            lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="photography" class="tab_holder">
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <blockquote class="blockquote">
+                                        <p>A brand for a company is like a reputation for a person. You earn reputation by
+                                            trying to do hard things well..</p>
+                                        <span class="quote_autor">Jeff Bezos</span>
+                                    </blockquote>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="text-holder">
+                                        <p>Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor
+                                            consectetur
+                                            fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet,
+                                            consectetur adipiscing elit. In maximus ligula metus pellentesque mattis. </p>
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="text-holder">
+                                        <p>Donec vel ultricies purus. Nam dictum sem, ipsum aliquam . Etiam sit amet
+                                            fringilla
+                                            lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.
+                                            Integer
+                                            lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="digital_services default_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-2 col_md_2">
+                            <div class="text_holder">
+                                <h2>Looking for exclusive digital services?</h2>
+                                <p>Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.
+                                    Integer
+                                    non dapibus diam, ac eleifend lectus.</p>
+                                <a href="#" class="btn btn_default">Lets talk</a>
+                            </div>
+                        </div>
+                        <div class="col col-2 col_md_2">
+                            <div class="img_holder">
+                                <img src="img/mak.png" alt="image description">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio_section">
+                <div>
+                    <div class="portfolio_section_text">
+                        <h2 class="text_center">Portfolio</h2>
+                        <p class="text_center">In auctor ex id urna faucibus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus. </p>
+                    </div>
+                    <div id="portfolio_tabs">
+                        <div class="portfolio_list_holder">
+                            <ul class="portfolio_list row">
+                                <li>
+                                    <a href="#all_works"><span>All works</span></a>
+                                </li>
+                                <li>
+                                    <a href="#branding_portfolio"><span>Branding</span></a>
+                                </li>
+                                <li>
+                                    <a href="#design_portfolio"><span>Design</span></a>
+                                </li>
+                                <li>
+                                    <a href="#photography_portfolio"><span>Photography</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="all_works">
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-1.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-2.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-3.png" alt="image description">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-4.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-5.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-6.png" alt="image description">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="branding_portfolio">
+                            <div class="row">
+                                <div class="col col-3">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-4.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-5.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-6.png" alt="image description">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-1.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-2.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-3.png" alt="image description">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="design_portfolio">
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-1.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-2.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-3.png" alt="image description">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-4.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-5.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-6.png" alt="image description">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="photography_portfolio">
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-3.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-2.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-1.png" alt="image description">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-6.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-5.png" alt="image description">
+                                    </div>
+                                </div>
+                                <div class="col col-3 col_md_2">
+                                    <div class="img_holder">
+                                        <img src="img/portfolio-img-4.png" alt="image description">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="start_project_section">
+                <div class="container">
+                    <div class="start_project_text text_center">
+                        <h2>Like our creative works?</h2>
+                    </div>
+                    <button class="btn_form">Start project</button>
+                </div>
+            </section>
+            <section class="choose_section default_section">
+                <div class="container">
+                    <h2 class="text_center">Why Choose Us?</h2>
+                    <div class="row">
+                        <div class="col col-3 col_md_2">
+                            <div class="icon_holder text_center">
+                                <span class="icon-flag"></span>
+                            </div>
+                            <div class="choose_section_text">
+                                <h3 class="text_center">We’re Creative</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim.</p>
+                            </div>
+                        </div>
+                        <div class="col col-3 col_md_2">
+                            <div class="icon_holder text_center">
+                                <span class="icon-clock"></span>
+                            </div>
+                            <div class="choose_section_text">
+                                <h3 class="text_center">We’re Punctual</h3>
+                                <p>Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend, lorem fermentum orci sit amet, iaculis libero.</p>
+                            </div>
+                        </div>
+                        <div class="col col-3 col_md_2">
+                            <div class="icon_holder text_center">
+                                <span class="icon-hotairballoon"></span>
+                            </div>
+                            <div class="choose_section_text">
+                                <h3 class="text_center">We have magic</h3>
+                                <p>Curabitur iaculis accumsan augue, nec finibus mauris pretium eu. Duis placerat ex gravida nibh tristique porta. Nulla facilisi. Suspendisse ultricies eros blandit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-3 col_md_2">
+                            <div class="icon_holder text_center">
+                                <span class="icon-heart"></span>
+                            </div>
+                            <div class="choose_section_text">
+                                <h3 class="text_center">We love minimalism</h3>
+                                <p>Cras luctus interdum sodales. Quisque quis odio dui. Sedes sit amet neque malesuada, lobortis  commodo magna ntesque pharetra metus vivera sagittis.</p>
+                            </div>
+                        </div>
+                        <div class="col col-3 col_md_2">
+                            <div class="icon_holder text_center">
+                                <span class="icon-linegraph"></span>
+                            </div>
+                            <div class="choose_section_text">
+                                <h3 class="text_center">We’re responsible</h3>
+                                <p>Fusce aliquet quam eget neque ultrices elementum. Nulla posuere felis id arcu blandit sagittis. Eleifend vestibulum purus, sit amet vulputate risus tristique non.</p>
+                            </div>
+                        </div>
+                        <div class="col col-3 col_md_2">
+                            <div class="icon_holder text_center">
+                                <span class="icon-chat"></span>
+                            </div>
+                            <div class="choose_section_text">
+                                <h3 class="text_center">We're Friendly</h3>
+                                <p>Pulvinar vitae neque et porttitor. Integer non dapibus diam, ac eleifend lectus. Praesent sed nisi eleifend, fermentum orci sit amet, iaculis libero interdum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="slide_section default_section">
+                <div class="container_fluid">
+                    <div class="row">
+                        <div class="quote_slide">
+                            <div class="slider">
+                                <div class="slider_content">
+                                    <div class="icon_holder">
+                                        <span class="icon-quote"></span>
+                                    </div>
+                                    <blockquote class="slider_quotes">
+                                    <span class="slider_title">What people say?</span>
+                                    <p> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,risus utaliquam dapibus. Thanks!</p>
+                                    <span class="quote_autor">John Doe, doodle inc.</span>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="slider">
+                                <div class="slider_content">
+                                    <div class="icon_holder">
+                                        <span class="icon-quote"></span>
+                                    </div>
+                                    <blockquote class="slider_quotes">
+                                        <span class="slider_title">What people say?</span>
+                                        <p> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,risus utaliquam dapibus. Thanks!</p>
+                                        <span class="quote_autor">John Doe, doodle inc.</span>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="slider">
+                                <div class="slider_content">
+                                    <div class="icon_holder">
+                                        <span class="icon-quote"></span>
+                                    </div>
+                                    <blockquote class="slider_quotes">
+                                        <span class="slider_title">What people say?</span>
+                                        <p> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,risus utaliquam dapibus. Thanks!</p>
+                                        <span class="quote_autor">John Doe, doodle inc.</span>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="slider">
+                                <div class="slider_content">
+                                    <div class="icon_holder">
+                                        <span class="icon-quote"></span>
+                                    </div>
+                                    <blockquote class="slider_quotes">
+                                        <span class="slider_title">What people say?</span>
+                                        <p> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,risus utaliquam dapibus. Thanks!</p>
+                                        <span class="quote_autor">John Doe, doodle inc.</span>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="latest_news_section default_section">
+                <div class="container">
+                    <div class="title_holder">
+                        <h2>Latest News</h2>
+                        <a href="#" class="all_blog">All News in our blog<i class="fas fa-angle-right"></i></a>
+                    </div>
+                    <div class="row">
+                        <div class="col col-3 col_md_2">
+                            <article class="article_news">
+                                <div class="img_holder">
+                                    <img src="img/article-img-1.jpg" alt="image description">
+                                </div>
+                                <div class="article_text">
+                                    <h3>New Web Design Trends</h3>
+                                    <ul class="article_text_list">
+                                        <li>John Doe</li>
+                                        <li>10 December</li>
+                                    </ul>
+                                    <p>Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur
+                                        fermentum nibh volutpat, accumsan purus. </p>
+                                    <a href="#" class="btn btn_readmore">Read more<i class="fas fa-angle-right"></i></a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col col-3 col_md_2">
+                            <article class="article_news">
+                                <div class="img_holder">
+                                    <img src="img/article-img-2.jpg" alt="image description">
+                                </div>
+                                <div class="article_text">
+                                    <h3>New Web Design Trends</h3>
+                                    <ul class="article_text_list">
+                                        <li>John Doe</li>
+                                        <li>10 December</li>
+                                    </ul>
+                                    <p>Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur
+                                        fermentum nibh volutpat, accumsan purus. </p>
+                                    <a href="#" class="btn btn_readmore">Read more <i class="fas fa-angle-right"></i></a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col col-3 col_md_2">
+                            <article class="article_news">
+                                <div class="img_holder">
+                                    <img src="img/article-img-3.jpg" alt="image description">
+                                </div>
+                                <div class="article_text">
+                                    <h3>New Web Design Trends</h3>
+                                    <ul class="article_text_list">
+                                        <li>John Doe</li>
+                                        <li>10 December</li>
+                                    </ul>
+                                    <p>Maecenas volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur
+                                        fermentum nibh volutpat, accumsan purus. </p>
+                                    <a href="#" class="btn btn_readmore">Read more<i class="fas fa-angle-right"></i></a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="newsletter_section">
+                <div class="container">
+                    <h2 class="text_center">Stay informed with our newsletter</h2>
+                    <form class="newsletter_form">
+                        <div class="input_holder">
+                            <input type="email" placeholder="Enter email here" >
+                        </div>
+                        <button class="btn btn_form">Subscribe</button>
+                    </form>
+                    <div class="information text_center">
+                        <div class="icon_information">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <span>Please trust us, we will never send you spam</span>
+                    </div>
+                </div>
+            </section>
+            <section class="contact_section default_section">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="text_center">Contact</h2>
+                        <div class="col col-3">
+                            <div class="icon_holder">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact_text">
+                                <h3>call us</h3>
+                                <a href="#">+61 3 8376 6284</a>
+                            </div>
+                        </div>
+                        <div class="col col-3">
+                            <div class="icon_holder">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact_text">
+                                <h3>Address</h3>
+                                <address>245 Quigley Blvd, Ste K</address>
+                            </div>
+                        </div>
+                        <div class="col col-3">
+                            <div class="icon_holder">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact_text">
+                                <h3>Email</h3>
+                                <a href="#">support@bestlooker.pro</a>
+                            </div>
+                        </div>
+                        <form action="#" class="contact_form">
+                            <div class="col col-2">
+                                <div class="input_holder">
+                                    <input type="text" placeholder="NAME">
+                                </div>
+                                <div class="input_holder">
+                                    <input type="email" placeholder="EMAIL">
+                                </div>
+                                <div class="information">
+                                    <div class="icon_information">
+                                        <i class="fas fa-info-circle"></i>
+                                    </div>
+                                    <span>All the fields are required</span>
+                                </div>
+                            </div>
+                            <div class="col col-2">
+                                <div class="input_holder">
+                                    <textarea name="message" placeholder="MESSAGE" cols="30" rows="10"></textarea>
+                                </div>
+                                <button class="btn btn_form">Submit Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="maps_section">
+                <div class="map_holder">
+                    <div class="map_text">
+                        <div class="icon_holder">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h2>Open the map<i class="fas fa-angle-right"></i></h2>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30041.142207224795!2d25.91783032986574!3d48.27809781780908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1565108410911!5m2!1sru!2sua" width="100%" height="410" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container text_center clearfix">
+                <div class="logo_footer">
+                    <a href="#"><img src="img/logo_footer.png" alt="Logo"></a>
+                </div>
+                <div class="footer_social">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer_text">
+                    <h2>&copy;Rhythm 2014</h2>
+                    <span>Made with love for great people</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
